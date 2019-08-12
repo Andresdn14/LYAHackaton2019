@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserViewController.swift
 //  LAHackatonIoT
 //
 //  Created by Andres Felipe De La Ossa Navarro on 8/10/19.
@@ -8,14 +8,17 @@
 
 import UIKit
 
-
-class ViewController: UIViewController {
+class UserViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
-
+    
+    @IBAction func logInPressed(_ sender: Any) {
+    }
+    
+    @IBAction func signUpPressed(_ sender: Any) {
+    }
+    
 }
-

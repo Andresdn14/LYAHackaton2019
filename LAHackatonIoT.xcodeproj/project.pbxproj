@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409069822FF4C4F002C9724 /* MQTTClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409069722FF4C4F002C9724 /* MQTTClientViewController.swift */; };
+		0459A8B522FF22DD0015F2AE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A8B422FF22DD0015F2AE /* SignUpViewController.swift */; };
+		0459A8B722FF28FF0015F2AE /* CatFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A8B622FF28FF0015F2AE /* CatFactViewController.swift */; };
+		0459A8B922FF2A220015F2AE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A8B822FF2A220015F2AE /* LogInViewController.swift */; };
+		0459A8BB22FF3D550015F2AE /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0459A8BA22FF3D550015F2AE /* ExternalAccessory.framework */; };
+		0459A8BE22FF3F6E0015F2AE /* IOTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A8BD22FF3F6E0015F2AE /* IOTViewController.swift */; };
 		04CE1D4922FF07CE0061E748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE1D4822FF07CE0061E748 /* AppDelegate.swift */; };
 		04CE1D4B22FF07CE0061E748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE1D4A22FF07CE0061E748 /* ViewController.swift */; };
 		04CE1D4E22FF07CE0061E748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE1D4C22FF07CE0061E748 /* Main.storyboard */; };
 		04CE1D5022FF07CF0061E748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE1D4F22FF07CF0061E748 /* Assets.xcassets */; };
 		04CE1D5322FF07CF0061E748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE1D5122FF07CF0061E748 /* LaunchScreen.storyboard */; };
+		04CE1D5B22FF093B0061E748 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE1D5A22FF093B0061E748 /* UserViewController.swift */; };
+		04CE1D5D22FF10920061E748 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE1D5C22FF10920061E748 /* Model.swift */; };
+		71183CE43540D69F4851889B /* Pods_LAHackatonIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE374ACC7D08F5DDA0D156B /* Pods_LAHackatonIoT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0409069722FF4C4F002C9724 /* MQTTClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTClientViewController.swift; sourceTree = "<group>"; };
+		0459A8B422FF22DD0015F2AE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0459A8B622FF28FF0015F2AE /* CatFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactViewController.swift; sourceTree = "<group>"; };
+		0459A8B822FF2A220015F2AE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0459A8BA22FF3D550015F2AE /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		0459A8BC22FF3D550015F2AE /* LAHackatonIoT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LAHackatonIoT.entitlements; sourceTree = "<group>"; };
+		0459A8BD22FF3F6E0015F2AE /* IOTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTViewController.swift; sourceTree = "<group>"; };
 		04CE1D4522FF07CE0061E748 /* LAHackatonIoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAHackatonIoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE1D4822FF07CE0061E748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CE1D4A22FF07CE0061E748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,11 @@
 		04CE1D4F22FF07CF0061E748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CE1D5222FF07CF0061E748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CE1D5422FF07CF0061E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE1D5A22FF093B0061E748 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		04CE1D5C22FF10920061E748 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		16E02ED7D4619F4FCB1495EA /* Pods-LAHackatonIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAHackatonIoT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAHackatonIoT/Pods-LAHackatonIoT.debug.xcconfig"; sourceTree = "<group>"; };
+		671233BC0FBAE90FBE0F1826 /* Pods-LAHackatonIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAHackatonIoT.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAHackatonIoT/Pods-LAHackatonIoT.release.xcconfig"; sourceTree = "<group>"; };
+		BBE374ACC7D08F5DDA0D156B /* Pods_LAHackatonIoT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAHackatonIoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0459A8BB22FF3D550015F2AE /* ExternalAccessory.framework in Frameworks */,
+				71183CE43540D69F4851889B /* Pods_LAHackatonIoT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				04CE1D4722FF07CE0061E748 /* LAHackatonIoT */,
 				04CE1D4622FF07CE0061E748 /* Products */,
+				7A232D1ECC2D0892F8111B87 /* Pods */,
+				6EED4ED3FAB609180821FE3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,40 @@
 		04CE1D4722FF07CE0061E748 /* LAHackatonIoT */ = {
 			isa = PBXGroup;
 			children = (
+				0459A8BC22FF3D550015F2AE /* LAHackatonIoT.entitlements */,
 				04CE1D4822FF07CE0061E748 /* AppDelegate.swift */,
 				04CE1D4A22FF07CE0061E748 /* ViewController.swift */,
+				04CE1D5A22FF093B0061E748 /* UserViewController.swift */,
 				04CE1D4C22FF07CE0061E748 /* Main.storyboard */,
+				0459A8BD22FF3F6E0015F2AE /* IOTViewController.swift */,
+				0459A8B622FF28FF0015F2AE /* CatFactViewController.swift */,
+				0409069722FF4C4F002C9724 /* MQTTClientViewController.swift */,
+				0459A8B822FF2A220015F2AE /* LogInViewController.swift */,
+				0459A8B422FF22DD0015F2AE /* SignUpViewController.swift */,
+				04CE1D5C22FF10920061E748 /* Model.swift */,
 				04CE1D4F22FF07CF0061E748 /* Assets.xcassets */,
 				04CE1D5122FF07CF0061E748 /* LaunchScreen.storyboard */,
 				04CE1D5422FF07CF0061E748 /* Info.plist */,
 			);
 			path = LAHackatonIoT;
+			sourceTree = "<group>";
+		};
+		6EED4ED3FAB609180821FE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0459A8BA22FF3D550015F2AE /* ExternalAccessory.framework */,
+				BBE374ACC7D08F5DDA0D156B /* Pods_LAHackatonIoT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A232D1ECC2D0892F8111B87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E02ED7D4619F4FCB1495EA /* Pods-LAHackatonIoT.debug.xcconfig */,
+				671233BC0FBAE90FBE0F1826 /* Pods-LAHackatonIoT.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CE1D5722FF07CF0061E748 /* Build configuration list for PBXNativeTarget "LAHackatonIoT" */;
 			buildPhases = (
+				2567C8CA2A88CB0D78DB0BEB /* [CP] Check Pods Manifest.lock */,
 				04CE1D4122FF07CD0061E748 /* Sources */,
 				04CE1D4222FF07CD0061E748 /* Frameworks */,
 				04CE1D4322FF07CD0061E748 /* Resources */,
+				901A6D1235285369335BCCA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +149,14 @@
 				TargetAttributes = {
 					04CE1D4422FF07CD0061E748 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +191,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2567C8CA2A88CB0D78DB0BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAHackatonIoT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901A6D1235285369335BCCA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LAHackatonIoT/Pods-LAHackatonIoT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MQTTClient/MQTTClient.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MQTTClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LAHackatonIoT/Pods-LAHackatonIoT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CE1D4122FF07CD0061E748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04CE1D4B22FF07CE0061E748 /* ViewController.swift in Sources */,
+				04CE1D5B22FF093B0061E748 /* UserViewController.swift in Sources */,
 				04CE1D4922FF07CE0061E748 /* AppDelegate.swift in Sources */,
+				0459A8B922FF2A220015F2AE /* LogInViewController.swift in Sources */,
+				0409069822FF4C4F002C9724 /* MQTTClientViewController.swift in Sources */,
+				04CE1D5D22FF10920061E748 /* Model.swift in Sources */,
+				0459A8BE22FF3F6E0015F2AE /* IOTViewController.swift in Sources */,
+				0459A8B522FF22DD0015F2AE /* SignUpViewController.swift in Sources */,
+				0459A8B722FF28FF0015F2AE /* CatFactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,8 +391,10 @@
 		};
 		04CE1D5822FF07CF0061E748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E02ED7D4619F4FCB1495EA /* Pods-LAHackatonIoT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LAHackatonIoT/LAHackatonIoT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P48P2G5UA9;
 				INFOPLIST_FILE = LAHackatonIoT/Info.plist;
@@ -298,8 +411,10 @@
 		};
 		04CE1D5922FF07CF0061E748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671233BC0FBAE90FBE0F1826 /* Pods-LAHackatonIoT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LAHackatonIoT/LAHackatonIoT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P48P2G5UA9;
 				INFOPLIST_FILE = LAHackatonIoT/Info.plist;
